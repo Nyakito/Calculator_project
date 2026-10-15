@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#080d1c">
+    <meta name="description" content="A sleek, modern calculator interface.">
+
+    <title>Just | Calculator</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main class="app-shell">
+
+        <header class="app-header">
+            <a href="#" class="brand">
+                <span class="brand-icon">N</span>
+                <span>T<span class="brand-light">calc</span></span>
+            </a>
+
+            <span class="status-indicator">
+                <span class="status-dot"></span>
+                READY
+            </span>
+        </header>
+
+        <section class="calculator" aria-label="Calculator">
+
+            <div class="calculator-heading">
+                <div>
+                    <p class="eyebrow">PRECISION AT YOUR FINGERTIPS</p>
+                    <h1>Calculator</h1>
+                </div>
+
+                <span class="calculator-symbol" aria-hidden="true">👓</span>
+            </div>
+
+            <section class="display" aria-label="Calculator display">
+                <p class="display-label">CURRENT EXPRESSION</p>
+
+                <p class="expression" aria-label="Example expression">
+                    12 × 3 + 6
+                </p>
+
+                <p class="result-label">RESULT</p>
+
+                <output class="result" aria-live="polite">42</output>
+            </section>
+
+            <section class="keypad" aria-label="Calculator keys">
+
+                <button type="button" class="key key-utility">
+                    AC
+                </button>
+
+                <button type="button" class="key key-utility">
+                    +/−
+                </button>
+
+                <button type="button" class="key key-utility">
+                    %
+                </button>
+
+                <button type="button" class="key key-operator">
+                    ÷
+                </button>
+
+                <button type="button" class="key">7</button>
+                <button type="button" class="key">8</button>
+                <button type="button" class="key">9</button>
+
+                <button type="button" class="key key-operator">
+                    ×
+                </button>
+
+                <button type="button" class="key">4</button>
+                <button type="button" class="key">5</button>
+                <button type="button" class="key">6</button>
+
+                <button type="button" class="key key-operator">
+                    −
+                </button>
+
+                <button type="button" class="key">1</button>
+                <button type="button" class="key">2</button>
+                <button type="button" class="key">3</button>
+
+                <button type="button" class="key key-operator">
+                    +
+                </button>
+
+                <button type="button" class="key key-zero">0</button>
+
+                <button type="button" class="key">.</button>
+
+                <button type="button" class="key key-equals">
+                    =
+                </button>
+
+            </section>
+
+            <footer class="calculator-footer">
+                <span>DESIGNED FOR CLARITY</span>
+                <span>✦ BY Nyakito</span>
+            </footer>
+
+        </section>
+
+        <footer class="page-footer">
+            <p>Less clutter. More calculation.</p>
+        </footer>
+
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
